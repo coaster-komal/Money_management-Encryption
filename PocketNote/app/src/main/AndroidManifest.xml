@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lf.pocketnote" >
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Del_acc"
+            android:label="@string/title_activity_del_acc" >
+        </activity>
+        <activity
+            android:name=".View_acc"
+            android:label="@string/title_activity_view_acc" >
+        </activity>
+        <activity
+            android:name=".Enc_dec"
+            android:label="@string/title_activity_enc_dec" >
+        </activity>
+        <activity
+            android:name=".Encryption"
+            android:label="@string/title_activity_encryption" >
+        </activity>
+        <activity
+            android:name=".Decryption"
+            android:label="@string/title_activity_decryption" >
+        </activity>
+        <activity
+            android:name=".Money_mgmt"
+            android:label="@string/title_activity_money_mgmt" >
+        </activity>
+        <activity
+            android:name=".Add_tran"
+            android:label="@string/title_activity_add_tran" >
+        </activity>
+        <activity
+            android:name=".Modify_tran"
+            android:label="@string/title_activity_modify_tran" >
+        </activity>
+        <activity
+            android:name=".Delete_tran"
+            android:label="@string/title_activity_delete_tran" >
+        </activity>
+        <activity
+            android:name=".View_tran"
+            android:label="@string/title_activity_view_tran" >
+        </activity>
+        <activity
+            android:name=".Daily_tran"
+            android:label="@string/title_activity_daily_tran" >
+        </activity>
+        <activity
+            android:name=".Daily_report"
+            android:label="@string/title_activity_daily_report" >
+        </activity>
+        <activity
+            android:name=".Montly_report"
+            android:label="@string/title_activity_montly_report" >
+        </activity>
+        <activity
+            android:name=".view_daily"
+            android:label="@string/title_activity_view_daily" >
+        </activity>
+        <activity
+            android:name=".View_montly"
+            android:label="@string/title_activity_view_montly" >
+        </activity>
+        <activity
+            android:name=".Yearly_report"
+            android:label="@string/title_activity_yearly_report" >
+        </activity>
+        <activity
+            android:name=".Modify_acc"
+            android:label="@string/title_activity_modify_acc" >
+        </activity>
+    </application>
+
+</manifest>

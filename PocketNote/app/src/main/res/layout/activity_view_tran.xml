@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/rush_grass_texture_214066"
+    android:focusableInTouchMode="true"
+    android:windowSoftInputMode="stateHidden"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="lf.pocketnote.View_tran">
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="600dp"
+        android:layout_height="200dp"
+        android:background="@drawable/moneymgmt1"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:text="@string/daily"
+        android:textSize="40dp"
+        android:background="@color/yellow"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/d"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:text="@string/montly"
+        android:textSize="40dp"
+        android:background="@color/yellow"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="450dp"
+        android:id="@+id/m"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:text="@string/yearly"
+        android:textSize="40dp"
+        android:background="@color/yellow"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="600dp"
+        android:id="@+id/y"/>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bk6"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="lf.pocketnote.Login">
+    <ImageButton
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="210dp"
+    android:layout_marginLeft="150dp"
+    android:background="@drawable/viewac"
+    android:id="@+id/search"
+    />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/logout"
+            android:layout_marginTop="770dp"
+            android:id="@+id/lo"/>
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/delac"
+        android:id="@+id/del"/>
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="700dp"
+        android:layout_height="150dp"
+        android:background="@drawable/logonew"/>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/moneymgmt"
+        android:id="@+id/mm"/>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/encrypt"
+        android:id="@+id/enc"/>
+
+</RelativeLayout>
